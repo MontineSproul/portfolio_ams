@@ -36,36 +36,3 @@
     transform: rotate(360deg);
   }
 }
-header {
-  width: 100%;
-  background-color: darkcyan;
-}
-
- .MSheader {
-    width: 30%;
-    font-size: 65px;
-    font-weight: 400;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    color: lavenderblush;
-  }
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-right: 10px;
-    text-decoration: none;
-
- }
-li  {
-    display: inline-block;
-    justify-content: end;
-    font-size: 20px;
-    padding: 25px;
-    text-decoration: none;
-    
-}
-a:hover {
-  color: grey;
-}
-
