@@ -43,7 +43,7 @@ function App() {
       <header>
         <h1 className="MSheader">Montine Sproul</h1>
       <nav>
-        <ul>
+        <ul className='nav'>
       <li><a onClick = {()=> setPage("Home")}>Home</a></li>
       <li><a onClick = {()=> setPage("AboutMe")}>About Me</a></li>
       <li><a onClick = {()=> setPage("Resume")}>Resume</a></li>
