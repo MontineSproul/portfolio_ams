@@ -59,6 +59,10 @@ header,
    margin-right: 0px;
    color: lavenderblush;
  }
+
+ h1 {
+   padding: 25px;
+ }
 /* header {
   width: 100%;
   background-color: darkcyan;
@@ -109,4 +113,12 @@ li {
        color: grey;
    }
 
+.abMe {
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 
+
+ 
+}

@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
-import AboutMe from './components/AboutMe';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Home from '../../components/Home';
+import AboutMe from '../../components/AboutMe';
+import Resume from '../../components/Resume';
+import Contact from '../../components/Contact';
 
 function App() {
   const [page, setPage] = useState("Home")
