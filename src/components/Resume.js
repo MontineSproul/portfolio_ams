@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
-import {Document, Page} from './react-pdf/dist/esm/entry.webpack';
-import pdfFile from './public/MontineSproulResume.pdf'
+// import {Document, Page} from '../react-pdf/dist/esm/entry.webpack';
+// import pdfFile from './public/MontineSproulResume.pdf'
 
 function Resume () {
     return (
         <div>
-            <Document file={pdfFile}>
+            {/* <Document file={pdfFile}>
                 <Page pageNumber={1} />
-            </Document>
+            </Document> */}
         <button>Download</button>
         </div>
     )

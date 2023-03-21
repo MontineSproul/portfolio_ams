@@ -1,7 +1,33 @@
+/* 124559 trim
+footer  {
+ padding-top: 15px;
+ background-color: var(--main-header-bg-color);
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ height: 50px;
+ text-align: center;
+ color: #eff6e0;
+  }
+ 
+i {
+    color: #eff6e0;
+ }
+  
+i:hover {
+    color: blueviolet;
+  }
+ font
+aec3b0 backgroud 
+ 01161e border/font
+*/
+
+
 * {
+  color: #01161e;
   box-sizing: border-box;
   margin: 0;
-  --main-header-bg-color: rgb(13, 96, 96);
+  --main-header-bg-color: #124559;
 }
 
 .App {
@@ -42,22 +68,33 @@
     transform: rotate(360deg);
   }
 }
-
+body {
+  background-color: #aec3b0;
+}
 header,
-.nav li {
+.nav {
    width: 100%;
    background-color: var(--main-header-bg-color);
-   color: lavenderblush;
+   color:#eff6e0;
    text-decoration: none;
 }
- 
+li {
+  display: inline-flex;
+  justify-content: end;
+  font-size: 20px;
+  padding-left: 45px;
+  text-align: center;
+  text-decoration: none;
+ }
+
+
 .MSheader {
    width: 30%;
    font-size: 65px;
    font-weight: 400;
    margin-bottom: 0px;
    margin-right: 0px;
-   color: lavenderblush;
+   color: #eff6e0;
  }
 
  h1 {
@@ -74,12 +111,12 @@ header,
     font-weight: 400;
     margin-bottom: 0px;
     margin-right: 0px;
-    color: lavenderblush;
+    color: #eff6e0;
   }
 
   a {
     width: 100%;
-    color: lavenderblush;
+    color: #eff6e0;
     text-decoration: none;
     
 }
@@ -102,15 +139,9 @@ ul {
     text-decoration: none;
 }
 
-li {
-    display: inline-block;
-    justify-content: end;
-    font-size: 20px;
-    padding-left: 45px;
-}
 
    a:hover {
-       color: grey;
+       color: #aec3b0;
    }
 
 .abMe {
@@ -118,7 +149,35 @@ li {
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
-
-
- 
 }
+
+.footer {
+  padding-top: 15px;
+  background-color: var(--main-header-bg-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #eff6e0;
+   }
+  
+ i {
+     color: #eff6e0
+ }
+     
+  #footer  {
+      padding-top: 15px;
+      background-color: var(--main-header-bg-color);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      color: #eff6e0;
+       }
+      
+     i:hover {
+         color: #598392;
+       }
+    
