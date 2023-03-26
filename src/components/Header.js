@@ -12,6 +12,7 @@ function Header() {
                 return (
                  // how to use a component once react is separated into different files 
                 <Home/>
+               
              )
         } else if (page === "AboutMe") {
                 return (
@@ -39,7 +40,7 @@ function Header() {
         <h1 className="MSheader">Montine Sproul</h1>
       <nav>
         <ul className='nav'>
-      <li><a onClick = {()=> setPage("Home")}>Home</a></li>
+      <li><a onClick = {()=> setPage("Home")}>Portfolio</a></li>
       <li><a onClick = {()=> setPage("AboutMe")}>About Me</a></li>
       <li><a onClick = {()=> setPage("Resume")}>Resume</a></li>
       <li><a onClick = {()=> setPage("Contact")}>Contact</a></li>

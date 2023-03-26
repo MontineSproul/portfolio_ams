@@ -161,11 +161,20 @@ ul {
   text-align: center;
   color: #eff6e0;
    }
-  
+   iframe {
+    margin-left: 170px;
+    margin-right: 130px;
+    height: 1200px;
+     width: 80%;
+  } 
  i {
      color: #eff6e0
  }
-     
+     .portfolio {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 35px;
+      font-size: 50px;
+     }
   #footer  {
       padding-top: 15px;
       background-color: var(--main-header-bg-color);
