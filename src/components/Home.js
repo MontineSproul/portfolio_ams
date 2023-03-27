@@ -1,49 +1,42 @@
 import React, {useState} from 'react';
 import { Gallery } from "react-grid-gallery";
-import photo1 from "../assets/apiQuiz.png";
-import photo2 from "../assets/scheduler.png";
-import photo3 from "../assets/weatherfor.png";
-import photo4 from "../assets/weathermann.png";
-import photo5 from "../assets/weathermann.png";
-import photo6 from "../assets/weathermann.png";
+import '../css/form.css';
+
 
 
 function Home () {
     const images = [
         {
-           src:{photo1},
+           src: process.env.PUBLIC_URL + "images/apiQuiz.png",
            width: 320,
            height: 174,
-           isSelected: true,
-           caption: "After Rain (Jeshu John - designerspics.com)",
+           description: document.getElementById('photo1')
+        //    caption: <i className="fa-solid fa-arrow-up-right-from-square"></i>,
         },
         {
-           src: {photo2},
+           src: process.env.PUBLIC_URL + "images/weathermann.png",
            width: 320,
            height: 212,
-           tags: [
-            
-           ],
            alt: "Project",
         },
      
         {
-           src: {photo3},
+           src: process.env.PUBLIC_URL + "/images/weathermann.png",
            width: 320,
            height: 212,
         },
         {
-            src: {photo4},
+            src: process.env.PUBLIC_URL + "/images/weathermann.png",
             width: 320,
             height: 212,
          },
          {
-            src: {photo5},
+            src: process.env.PUBLIC_URL + "/images/weathermann.png",
             width: 320,
             height: 212,
          },
          {
-            src: {photo6},
+            src: process.env.PUBLIC_URL + "/images/weathermann.png",
             width: 320,
             height: 212,
          }
@@ -53,8 +46,19 @@ function Home () {
         <div>
             <h2 className="portfolio">Portfolio</h2>
             <Gallery images={images} />
+            <div id="photo1">
+            {/* <Gallery images={images} /> */}
+                <a href="https://montinesproul.github.io/API_Quiz/" target="_blank" class="deployedSite"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/MontineSproul/API_Quiz" target="_blank" class="githubRepo"><i className="fa-brands fa-github"></i></a>
+                </div>
+            {/* <div id="photo3">{images[2]}</div>
+            <div id="photo4">{images[3]}</div>
+            <div id="photo5">{images[4]}</div>
+            <div id="photo6">{images[5]}</div>
+            <div id="photo1">{images[0]}</div> */}
+         
         </div>
     )
-};
+    };
 
 export default Home;
