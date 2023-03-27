@@ -22,10 +22,9 @@ function Home () {
            width: 320,
            height: 212,
            tags: [
-              { value: "Ocean", title: "Ocean" },
-              { value: "People", title: "People" },
+            
            ],
-           alt: "Boats (Jeshu John - designerspics.com)",
+           alt: "Project",
         },
      
         {
