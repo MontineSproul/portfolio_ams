@@ -11,6 +11,7 @@ function Home () {
            src: process.env.PUBLIC_URL + "/images/apiQuiz.png",
            width: 320,
            height: 174,
+           describe: "https://montinesproul.github.io/API_Quiz/",
            customOverlay: (
             <div className="custom-overlay__caption">
               <div  className="custom-overlay__tag">
@@ -27,29 +28,21 @@ function Home () {
            src: process.env.PUBLIC_URL + "/images/weathermann.png",
            width: 320,
            height: 212,
+           describe: "",
            alt: "Project",
         },
      
         {
-           src: process.env.PUBLIC_URL + "/images/weathermann.png",
-           width: 320,
-           height: 212,
-        },
-        {
-            src: process.env.PUBLIC_URL + "/images/weathermann.png",
+            src: process.env.PUBLIC_URL + "/images/scheduler.png",
             width: 320,
             height: 212,
          },
          {
-            src: process.env.PUBLIC_URL + "/images/weathermann.png",
+            src: process.env.PUBLIC_URL + "/images/myyard.png",
             width: 320,
             height: 212,
          },
-         {
-            src: process.env.PUBLIC_URL + "/images/weathermann.png",
-            width: 320,
-            height: 212,
-         }
+      
      ];
      
     return (
